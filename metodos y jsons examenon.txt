@@ -1,0 +1,21 @@
+método para eliminar un empleado por nombre cuando no esta relacionado a nada
+http://localhost:9004/api/empleados/{nombre}/
+
+método agregar un empleado
+http://localhost:9004/api/empleados/
+{
+    "nombre": "Oscar",
+    "apellido": "Nogales",
+    "cedula": "1755694096"
+}
+
+método para visualizar todos los empleados
+http://localhost:9004/api/empleados/
+[
+  {
+    "id": 1,
+    "nombre": "xd1",
+    "apellido": "xd1",
+    "cedula": "175569409"
+  }
+]
